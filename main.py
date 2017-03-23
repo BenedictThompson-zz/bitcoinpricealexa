@@ -53,3 +53,4 @@ def session_ended():
     return statement("")
 def run():
     app.run(debug=True)
+run()
