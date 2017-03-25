@@ -22,7 +22,7 @@ quitkeywords = ['quit', 'exit', 'cancel', 'leave']
 def new_game():
     print "here"
 
-    welcome_msg = render_template('welcome')
+    welcome_msg = render_template('welcome', crypto = crypto)
 
     return question(welcome_msg)
 
@@ -30,7 +30,7 @@ def new_game():
 @ask.intent("YesIntent", convert={'yon': str})
 def next_round(yon):
     print yon
-    round_msg = render_template('round_msg')
+    round_msg = render_template('round_msg', crypto = crypto)
     help = render_template('help', crypto = crypto)
     if yon == 'help':
         print "here"
