@@ -1,4 +1,4 @@
-welcome: Welcome to {{ crypto }} Price. To get the {{ crypto }} price .
+welcome: Welcome to {{ crypto }} Price. To get the {{ crypto }} price say, What is the {{ crypto }} price?.
 
 round: If you want to translate something else, say yes, or if you want to exit, say quit.
 
@@ -6,11 +6,13 @@ round: If you want to translate something else, say yes, or if you want to exit,
 priceresponse: The price of {{ crypto }} in Dollars is {{ price}}
   
 
-round_msg: To quit say 'quit', or if you want to know the bitcoin price, ask for that.
+lose: Sorry, that's the wrong answer.
+
+round_msg: To quit say 'quit', or if you want to know the {{ crypto }} price, ask for that.
 
 sorry: Sorry, I did not hear what you said. Please repeat it.
 
-thanks: Thank you for using {{ crypto }} Price, have a good day!
+thanks: Thank you for using Bitcoin Price, have a good day!
 
 sorry2: Sorry, I did not hear what you wanted me to translate . Please repeat what you said.
 
